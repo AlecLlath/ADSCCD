@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message Box {
+    uint32 barcode = 1;
+    uint32 weight_in_kg = 2;
+}
+
+enum AppleVariety {
+    GOLDEN = 0;
+    GALA = 1;
+}
+
+enum PearVariety {
+    WILLIAMS = 0;
+    CONFERENCE = 1;
+}
+
+message Shipment {
+    repeated Box box = 1;
+    oneof box_type {
+        AppleVariety apple = 2;
+        PearVariety pear = 3;
+    }
+}
