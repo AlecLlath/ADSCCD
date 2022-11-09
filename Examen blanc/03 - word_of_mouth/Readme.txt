@@ -9,6 +9,8 @@ As answer, provide :
 - the password,
 - the value of the treasure.
 
+========================================================
+
 * Votre code doit :
 - premièrement accepter la connexion de la part du "password_whisperer" (chuchoteur de mot de passe) et recevoir de sa part tout d'abord un entier uint32_t indiquant la longueur en octet du mot de passe, puis les octets de ce mot de passe (ascii),
 - ensuite se connecter au "vault" (coffre fort) pour lui transmettre le mot de passe d'abord par un uint32_t indiquant le nombre d'octets puis les octets du mot de passe,
