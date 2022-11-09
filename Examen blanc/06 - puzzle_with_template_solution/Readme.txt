@@ -8,7 +8,8 @@ Le serveur renvoie les statuts de réponses suivantes:
 
 
 Le puzzle est un puzzle de 100 pièces, 10 par 10 . Les pièces sont numérotées de 1 à 100.
-Lorsque le serveur puzzle_with_template est exécuté, il démarre avec un puzzle vierge, aucune pièce n'est considérée comme placée. Pour indiquer leur place aux pièces, les coordonnées vont de 1 à 10 en x et de 1 à 10 en y.
+Lorsque le serveur puzzle_with_template est exécuté, il démarre avec un puzzle vierge, aucune pièce n'est considérée comme placée.
+Pour indiquer leur place aux pièces, les coordonnées vont de 1 à 10 en x et de 1 à 10 en y.
 
 Vous devez retrouver :
 - les coordonnées de la pièce 71, x et y,
