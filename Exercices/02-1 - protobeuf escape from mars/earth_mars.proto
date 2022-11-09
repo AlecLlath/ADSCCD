@@ -1,0 +1,51 @@
+syntax = "proto3";
+
+message Date {
+    uint32 year = 1;
+    uint32 month = 2;
+    uint32 day = 3;
+}
+
+message Astronaut {
+    string name = 1;
+    enum HealthStatus {
+        GOOD = 0;
+        AILING = 1;
+        DEAD = 2;
+    }
+    HealthStatus health_status = 2;
+}
+
+message RescueDemand {
+    uint32 id = 1;
+    Date ask_before = 2;
+    repeated Astronaut astronaut = 3;
+}
+
+message RescueAck {
+    uint32 id = 1;
+    enum RescueAckChoice {
+        REJECTED = 0;
+        ACCEPTED = 1;
+    }
+    RescueAckChoice choice = 2;
+}
+
+message FromMars {
+    oneof type {
+        RescueDemand rescue_demand = 1;
+        RescueAck rescue_ack = 2;
+    }
+}
+
+message RescueOffer {
+    uint32 id = 1;
+    Date date = 2;
+    uint32 nb_places = 3;
+}
+
+message FromEarth {
+    oneof type {
+        RescueOffer rescue_offer = 1;
+    }
+}
