@@ -17,6 +17,8 @@ You must retrieve pieces of information from provided guest client requests:
 - which day guest is asking for ?
 - which rate is given to the dish burger by guest ?
 
+====================================================
+
 * Developpez un serveur HTTP répondant sur 127.0.0.1:5000 aux requêtes get sur les urls à paramètres suivants :
 
 - "/menu/<day>"
