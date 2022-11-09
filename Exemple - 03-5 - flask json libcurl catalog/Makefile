@@ -1,7 +1,0 @@
-all: flask_json_libcurl_catalog_client
-
-flask_json_libcurl_catalog_client: flask_json_libcurl_catalog_client.c
-	gcc -o flask_json_libcurl_catalog_client flask_json_libcurl_catalog_client.c -lcurl -ljansson
-
-clean:
-	rm flask_json_libcurl_catalog_client
