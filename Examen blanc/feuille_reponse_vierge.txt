@@ -1,0 +1,34 @@
+Démarrer la machine virtuelle d'examen blanc en utilisant le disque virtuel "/usr/local/vmware/Temp/adsccd-exam-blanc-2022-2023.vmdk"
+Vous trouverez l'ensemble des exercices sur le bureau de la machine virtuelle au sein du répertoire adsccd_exam_blanc_2022-2023.
+Bonne chance à tous.
+
+NOM :
+Prénom : 
+numéro d'étudiant : 
+
+1) Bowling umpire
+- number of players / nombre de joueurs:
+- best score / meilleur score:
+- best player rank / rang du meilleur joueur:
+
+2) Broadway booking
+- global price / prix global:
+- booking number / numéro de réservation:
+
+3) Word of mouth
+- password:
+- treasure value:
+
+4) Olympic games competitor
+- bib number:
+- name of the first starting contest:
+- hour of the last starting contest:
+
+5) daily menu
+- day is asked by the guest:
+- which rate if given by guest to the dish "burger":
+
+6) puzzle with template
+- x abscissa of piece 71:
+- y ordinate of piece 71:
+- Final congratulations sentence from server:

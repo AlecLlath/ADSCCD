@@ -1,0 +1,30 @@
+NOM :
+Prénom : 
+numéro d'étudiant : 
+
+1) Bowling umpire
+- number of players / nombre de joueurs: 4
+- best score / meilleur score: 113
+- best player rank / rang du meilleur joueur: 2
+
+2) Broadway booking
+- global price / prix global: 22
+- booking number / numéro de réservation: 768
+
+3) Word of mouth
+- password: IBGBI
+- treasure value: 777
+
+4) Olympic games competitor
+- bib number: 123456
+- name of the first starting contest: throwing
+- hour of the last starting contest: 11
+
+5) daily menu
+- day is asked by the guest: tuesday
+- which rate if given by guest to the dish "burger": 33
+
+6) puzzle with template
+- x abscissa of piece 71: 10 
+- y ordinate of piece 71: 4
+- Final congratulations sentence from server: "Congratulations! You successfully finished this beautiful horse."
